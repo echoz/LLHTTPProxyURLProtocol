@@ -18,7 +18,6 @@ Proxy auto configuration via a URL will also be eventually supported.
 
 - Allow transparent usage of NSURLConnection
 - Support `http` and `https` URL loading
-- Low memory usage (file streaming)
 - Full support for `NSURLAuthenticationChallenge` type events
 
 ## Todo
