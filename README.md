@@ -23,4 +23,4 @@ Proxy auto configuration via a URL will also be eventually supported.
 
 ## Todo
 
-- Figure out how to get `NSURLProtectionSpace` that is for SSL connections (It seems we need to go lower level and implement our own CFHTTPStream: https://developer.apple.com/library/ios/technotes/tn2232/_index.html#//apple_ref/doc/uid/DTS40012884-CH1-CFHTTPSTREAM)
+- Figure out how to get `NSURLProtectionSpace` that is for SSL connections ([It seems we need to go lower level and implement our own CFHTTPStream]( https://developer.apple.com/library/ios/technotes/tn2232/_index.html#//apple_ref/doc/uid/DTS40012884-CH1-CFHTTPSTREAM))
