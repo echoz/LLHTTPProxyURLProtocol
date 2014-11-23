@@ -20,10 +20,9 @@ Pod::Spec.new do |s|
                    * HTTPS Proxies
                    DESC
 
-  s.homepage     = "http://github.com/echoz/LLHTTPProxyURLProtocol"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.homepage     = "https://github.com/echoz/LLHTTPProxyURLProtocol"
 
-  s.license      = "MIT"
+  s.license      = { :type => 'MIT' }
   s.author       = { "Jeremy Foo" => "jeremy@lazylabs.co" }
 
   s.ios.deployment_target = "5.0"
@@ -31,8 +30,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "http://github.com/echoz/LLHTTPProxyURLProtocol.git", :tag => "0.0.1" }
   
-  s.source_files  = "LLHTTPProxyURLProtocol", "Classes/**/*.{h,m}"
-  s.exclude_files = "Example"
+  s.source_files  = "LLHTTPProxyURLProtocol/*.{h,m}"
 
   s.requires_arc = true
 
